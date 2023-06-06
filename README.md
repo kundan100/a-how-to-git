@@ -28,7 +28,7 @@ Guidelines to follow for git repos
 
 
 ## Create "feature/1_feature-name" branch, before working on feature.
-  1. Always create feature-branches only from the "develop" branch.
+  1. Create it (feature-branches) from "main" branch only.
   2. Use only feature-branches for developing features. Once feature is done, it should be merged to "develop" branch.
   3. And then, "develop" should be merged to "main".
 
