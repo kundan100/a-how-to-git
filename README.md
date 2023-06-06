@@ -18,7 +18,7 @@ Guidelines to follow for git repos
 ## Check the git’s configuration (user.name, user.email) and set it, if needed.
   1. Check config: $ git config user.name
   2. Set config: $ git config user.name kundan100
-  3. Setting this config will be stored in your project-local scope (project-path-on-local-machine\.git\config).
+  3. Setting this config will be stored in your project-local scope (project-path-on-local-machine\\.git\config).
 
 
 ## Create "develop" branch
