@@ -6,6 +6,13 @@ Guidelines to follow for git repos
   1. Provide repo name, select public / private.
   2. Initialize with “ReadMe” and “License” files only.
   3. The current state of repo is: Repo at Github > Insights > Network. This is available for public repo only.
+  4. Settings for repo: Repo > Settings > Branches > Add branch protection rule:
+      1. branch name pattern
+      2. Require a pull request before merging > Require approvals
+      3. Require linear history
+      4. Lock branch
+      5. Do not allow bypassing the above settings
+  5. Done!
   
 
 ## Clone repo on local machine
