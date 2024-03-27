@@ -1,4 +1,4 @@
-
+![author](https://img.shields.io/badge/Author-kundan100-blue)
 # a-how-to
 Guidelines to follow for...
 1. Handling Git/GitHub
@@ -53,29 +53,26 @@ Guidelines to follow for...
 
 
 ## <mark>List of Repos</mark>
-1. how-to
-      1. a-how-to-git
-2. Tutorials (Basic FET)
-      1. SketchFETProjectSetup
-      2. SketchModularJS
-      3. SketchMVCJS
-      4. private-sketch-webcomponent-vanillajs
-      5. private-sketch-bootstrap3
-3. Tutorials (React)
-      1. sketch-react-js
-      2. sketchReactjsNative
-      3. react-admin-training
-4. Tutorials (Angular)
-      1. private-sketch-angular8
-      2. sketch-angular8
-5. Tutorials (Others)
-      1. private-sketch-electronjs
-      2. pa
-      3. sketch-grpc-web
-6. npm
-      1. auto-set-node-version
-7. browser-extensions
-      1. bepa 
-8. Done!
+### Tutorials
 
+1. how-to: `a-how-to-git`.
+2. tutorials
+      1. Basic FET: `SketchFETProjectSetup`.
+      2. VanillaJS: `SketchModularJS`, `SketchMVCJS`, `private-sketch-webcomponent-vanillajs`.
+      3. CSS: .
+      4. Bootstrap: `private-sketch-bootstrap3`.
+      5. React: `sketch-react-js`, `react-admin-training`, `sketchReactjsNative`.
+      6. Angular: `private-sketch-angular8`, `sketch-angular8`.
+      7. ElectronJS: `private-sketch-electronjs`, `pa`.
+      8. Others: `sketch-grpc-web`.
+      9. HelloWorld: 'test', `HelloWorld`.
+3. Projects:
+      1. Measure: `mapnesium`, `mlm-measure-land-map`, `mlm-measure-land-map-vet7fk`.
+      2. Game (Ludo): `ludo-party`
+      3. Assitant: `pa`
+4. Projects (npm):
+      1. `auto-set-node-version`.
+5. Projects (browser-extensions):
+      1. `bepa`
+6. Done!
 *** END ***
