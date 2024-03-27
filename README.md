@@ -7,7 +7,8 @@ Guidelines to follow for...
 	3. Run project: `Clone` > `$ npm install` > `$ npm start`.
 	4. Check the git’s configuration.
 	5. Create branches.
-2. Done!
+2. List of Repos.
+3. Done!
 
 
 ## <mark>Handling Git/GitHub</mark>
@@ -50,3 +51,31 @@ Guidelines to follow for...
   2. Use only feature-branches for developing features. Once feature is done, it should be merged to `develop` branch.
   3. And then, `develop` should be merged to `main`.
 
+
+## <mark>List of Repos</mark>
+1. how-to
+      1. a-how-to-git
+2. Tutorials (Basic FET)
+      1. SketchFETProjectSetup
+      2. SketchModularJS
+      3. SketchMVCJS
+      4. private-sketch-webcomponent-vanillajs
+      5. private-sketch-bootstrap3
+3. Tutorials (React)
+      1. sketch-react-js
+      2. sketchReactjsNative
+      3. react-admin-training
+4. Tutorials (Angular)
+      1. private-sketch-angular8
+      2. sketch-angular8
+5. Tutorials (Others)
+      1. private-sketch-electronjs
+      2. pa
+      3. sketch-grpc-web
+6. npm
+      1. auto-set-node-version
+7. browser-extensions
+      1. bepa 
+8. Done!
+
+*** END ***
