@@ -34,12 +34,19 @@ Guidelines to follow for...
 |4  |The current state of repo is: `$ git branch -av`   |NA                                 |
   
     
-### Check the git’s configuration (user.name, user.email) and set it, if needed.
-  1. Check config: `$ git config user.name`
-  2. Set config: `$ git config user.name kundan100`
-  3. Setting this config will be stored in your project-local scope (`project-path-on-local-machine\\.git\config`).
+### Git’s configuration, and files (.gitignore, README.md, LICENSE):
+  1. Git's configuration for user (user.name, user.email):
+      1. Check config: `$ git config user.name`.
+      2. Set config: `$ git config user.name kundan100`.
+      3. Setting this config will be stored in your project-local scope (`project-path-on-local-machine\\.git\config`).
+  2. Files (`.gitignore, README.md, LICENSE`):
+      1. Add above mentined files, if not available (for "create new" case). 
+  3. kk:
+      1. Add file (`__kk__note.txt`) for local notes.
+      2. Add folder (`__kk__`) for local backups.
+      3. Update file (.gitignore) to ignore both the above mentioned file & folder.
 
-
+    
 ### Create "develop" branch
   1. Create it from `main` branch only. `$ git checkout –b develop`
   2. Use `develop` branch only for merging the features here (not directly in main branch).
