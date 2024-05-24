@@ -11,6 +11,29 @@ Guidelines to follow for...
 3. Done!
 
 
+## <mark>Most frequently used way</mark>
+  1. Create a new repo on Github server.
+  2. On local machine > `CD` to a folder where project has to be cloned > Open `GitBash`.
+  3. `$ git clone https-url-of-repo`.
+  4. `$ git status`.
+  5. `$ git config user.name`, `$ git config user.email`, `$ git config user.name kundan100`.
+  5. `$ git remote -v`.
+  7. `$ nvm -v`.
+  8. `$ nvm list`.
+  9. `$ node -v`.
+  10. `$ npm -v`.
+  11. `$ git branch`.
+  12. Add a file and folder for local notes and backups:
+  	1. Create a file (/__kk__/__kk__note.txt) for local notes and backups.
+	2. Update file (.gitignore) to ignore above created file and folder.
+	3. `$ git add .`
+	4. `$ git commit -m "add file and folder for local notes and backups. add these to gitignore."`
+	5. `$ git log -2`
+	6. `$ git push`. It asks for authentication using browser or PAT. Select browser option and it automatically logs-in if you are logged-in to browser already.
+  14. Create `develop` branch.
+  15. Create `feature/1_feature-name` branch, before working on feature.
+
+
 ## <mark>Handling Git/GitHub</mark>
 ### Create a new repo on Github server
   1. Provide `repo name`, select `public / private`.
