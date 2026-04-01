@@ -47,6 +47,7 @@ Guidelines to follow for...
     1. `$ git stash push -u -m "message for stash"`
     2. `$ git stash list`
     3. `$ git stash pop 0`
+    4. `$ git reset --soft HEAD~1`: undo last-local-commit. Commit is removed. Changes will remain staged.
   9. Done!
 
 
