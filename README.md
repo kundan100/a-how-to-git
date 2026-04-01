@@ -41,14 +41,16 @@ Guidelines to follow for...
   4. `$ git commit -m "add file and folder for local notes and backups. add these to gitignore."`
   5. `$ git log -2`
   6. `$ git push`. It asks for authentication using browser or PAT. Select browser option and it automatically logs-in if you are logged-in to browser already.
-6. Create `develop` branch.
-7. Create `feature/1_feature-name` branch, before working on feature.
-8. Other useful actions:
+6. Handle branches
+  1. Create `develop` branch.
+  2. Create `feature/1_feature-name` branch, before working on feature.
+  3. Use PRs to merge feature-branches to develop; and develop to main.
+7. Other useful actions:
   1. `$ git stash push -u -m "message for stash"`
   2. `$ git stash list`
   3. `$ git stash pop 0`
   4. `$ git reset --soft HEAD~1`: undo last-local-commit. Commit is removed. Changes will remain staged.
-9. Done!
+8. Done!
 
 
 ## <mark>Handling Git/GitHub</mark>
