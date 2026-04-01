@@ -13,44 +13,45 @@ Guidelines to follow for...
 
 ## <mark>Most frequently used way</mark>
 1. Create a new repo on Github server.
-  1. Provide `repo name`, select `public / private`.
-  2. Select `ReadMe`.
-  3. Select `License` as MIT.
-  4. Select `.gitignore` as Node.
+	1. Provide `repo name`, select `public / private`.
+	2. Select `ReadMe`.
+	3. Select `License` as MIT.
+	4. Select `.gitignore` as Node.
 2. The current state of repo is: `Repo at Github > Insights > Network`. This is available for public repo only.
-3. Settings for repo: `Repo > Settings > Branches > Add branch protection rule`:
-  1. branch name pattern
-  2. Require a pull request before merging > Require approvals
-  3. Require linear history
-  4. Lock branch
-  5. Do not allow bypassing the above settings
-4. On local machine > `CD` to a folder where project has to be cloned > Open `GitBash`.
-  1. `$ git clone https-url-of-repo`.
-  2. `$ git status`.
-  3. `$ git config user.name`, `$ git config user.email`, `$ git config user.name kundan100`.
-  4. `$ git remote -v`.
-  5. `$ nvm -v`.
-  6. `$ nvm list`.
-  7. `$ node -v`.
-  8. `$ npm -v`.
-  9. `$ git branch`.
-5. Add a file and folder for local notes and backups:
-  1. Create a file (/__kk__/__kk__note.txt) for local notes and backups.
-  2. Update file (.gitignore) to ignore above created file and folder.
-  3. `$ git add .`
-  4. `$ git commit -m "add file and folder for local notes and backups. add these to gitignore."`
-  5. `$ git log -2`
-  6. `$ git push`. It asks for authentication using browser or PAT. Select browser option and it automatically logs-in if you are logged-in to browser already.
-6. Handle branches
-  1. Create `develop` branch.
-  2. Create `feature/1_feature-name` branch, before working on feature.
-  3. Use PRs to merge feature-branches to develop; and develop to main.
-7. Other useful actions:
-  1. `$ git stash push -u -m "message for stash"`
-  2. `$ git stash list`
-  3. `$ git stash pop 0`
-  4. `$ git reset --soft HEAD~1`: undo last-local-commit. Commit is removed. Changes will remain staged.
-8. Done!
+3. Set develop branch as base branch: `Repo > Settings > General > Default Branch`
+4. Settings for repo: `Repo > Settings > Branches > Add branch protection rule`:
+	1. branch name pattern
+	2. Require a pull request before merging > Require approvals
+	3. Require linear history
+	4. Lock branch
+	5. Do not allow bypassing the above settings
+5. On local machine > Open `GitBash` > `CD` to a folder where project has to be cloned.
+	1. `$ git clone https-url-of-repo`.
+	2. `$ git status`.
+	3. `$ git config user.name`, `$ git config user.email`, `$ git config user.name kundan100`.
+	4. `$ git remote -v`.
+	5. `$ nvm -v`.
+	6. `$ nvm list`.
+	7. `$ node -v`.
+	8. `$ npm -v`.
+	9. `$ git branch`.
+6. Add a file and folder for local notes and backups:
+	1. Create a file (/__kk__/__kk__note.txt) for local notes and backups.
+	2. Update file (.gitignore) to ignore above created file and folder.
+	3. `$ git add .`
+	4. `$ git commit -m "add file and folder for local notes and backups. add these to gitignore."`
+	5. `$ git log -2`
+	6. `$ git push`. It asks for authentication using browser or PAT. Select browser option and it automatically logs-in if you are logged-in to browser already.
+7. Handle branches
+	1. Create `develop` branch.
+	2. Create `feature/1_feature-name` branch, before working on feature.
+	3. Use PRs to merge feature-branches to develop; and develop to main.
+8. Other useful actions:
+	1. `$ git stash push -u -m "message for stash"`
+	2. `$ git stash list`
+	3. `$ git stash pop 0`
+	4. `$ git reset --soft HEAD~1`: undo last-local-commit. Commit is removed. Changes will remain staged.
+9. Done!
 
 
 ## <mark>Handling Git/GitHub</mark>
