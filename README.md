@@ -25,7 +25,7 @@ Guidelines to follow for...
 	3. Require linear history
 	4. Lock branch
 	5. Do not allow bypassing the above settings
-5. On local machine > `CD` to a folder where project has to be cloned > Open `GitBash`.
+5. On local machine > Open `GitBash` > `CD` to a folder where project has to be cloned.
 	1. `$ git clone https-url-of-repo`.
 	2. `$ git status`.
 	3. `$ git config user.name`, `$ git config user.email`, `$ git config user.name kundan100`.
