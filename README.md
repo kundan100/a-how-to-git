@@ -43,8 +43,9 @@ Guidelines to follow for...
 	  6. `$ git push`. It asks for authentication using browser or PAT. Select browser option and it automatically logs-in if you are logged-in to browser already.
   6. Create `develop` branch.
   7. Create `feature/1_feature-name` branch, before working on feature.
-  8. Other useful items:
-    1. 
+  8. Other useful actions:
+    1. `$ git stash push -u -m "message for stash"`
+    2. `$ git stash list`
   9. Done!
 
 
