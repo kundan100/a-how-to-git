@@ -46,6 +46,7 @@ Guidelines to follow for...
   8. Other useful actions:
     1. `$ git stash push -u -m "message for stash"`
     2. `$ git stash list`
+    3. `$ git stash pop 0`
   9. Done!
 
 
