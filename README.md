@@ -1,4 +1,9 @@
 ![author](https://img.shields.io/badge/Author-kundan100-blue)
+
+
+# Other Readme files:
+![AHK](/ahk/README.md)
+
 # a-how-to
 Guidelines to follow for...
 1. Handling Git/GitHub
@@ -94,7 +99,7 @@ Guidelines to follow for...
 ### Tutorials
 
 1. how-to: `a-how-to-git`.
-2. tutorials
+2. tutorials (tech wise)
       1. Basic FET: `SketchFETProjectSetup`.
       2. VanillaJS: `SketchModularJS`, `SketchMVCJS`, `private-sketch-webcomponent-vanillajs`.
       3. CSS: .
@@ -102,8 +107,9 @@ Guidelines to follow for...
       5. React: `sketch-react-js`, `react-admin-training`, `sketchReactjsNative`.
       6. Angular: `private-sketch-angular8`, `sketch-angular8`.
       7. ElectronJS: `private-sketch-electronjs`, `pa`.
-      8. Others: `sketch-grpc-web`.
-      9. HelloWorld: 'test', `HelloWorld`.
+      8. AHK: TBD
+      9. Others: `sketch-grpc-web`.
+      10. HelloWorld: 'test', `HelloWorld`.
 3. Projects:
       1. Measure: `mapnesium`, `mlm-measure-land-map`, `mlm-measure-land-map-vet7fk`.
       2. Game (Ludo): `ludo-party`
