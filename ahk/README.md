@@ -3,7 +3,7 @@
 Guidelines to follow for...
 1. Create a project
 	1. project's folder: TBD
-  2. main file: index.ahk
+	2. main file: index.ahk
 2. Activate this AHK utility.
 	1. Option-1: using shortcut (so that we can double-click to run this activation).
 	2. Option-2:
