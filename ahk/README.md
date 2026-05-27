@@ -1,4 +1,6 @@
 ![author](https://img.shields.io/badge/Author-kundan100-blue)
+
+
 # a-how-to (AHK: AutoHotKey)
 Guidelines to follow for...
 1. Create a project
@@ -23,3 +25,10 @@ Guidelines to follow for...
 	1. Using AHK V2.
 	2. Get/download the lib (AutoHotkey_2.0.19.zip) and extract anywhere (preferably outside project).
 6. Done!
+
+
+
+# TBD features:
+1. change the icon (of running ahk utility).
+2. change the tooltip to show something custom other than ahk-file-name.
+3. Done!
